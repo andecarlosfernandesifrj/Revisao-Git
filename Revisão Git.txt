@@ -1,30 +1,35 @@
 1 - Qual o comando para verificar a versão do git?
 
-
+git --version
 
 2 - Qual o comando utilizado para verificar as configurações de usuário e email do git?
 
-
+git config --list
 
 3 - Mostre o comando para configurar o e-mail do git. Use seu e-mail.
 
-
+git config --global user.email "carlos.fernandes@ifrj.edu.br"
 
 4 - Para que serve o comando git add --all?
 
+Este comando salva as alterações realizadas em todos os arquivos encontrados na pasta.
 
+git add .
+git add -a
+git add --all
 
 5 - Qual o comando para mostrar de forma compacta o status dos arquivos?
 
-
+git status --short
 
 6 - Para que serve o comando git log?
 
-
+Mostrar o histórico de commits.
 
 7 - Mostre o comando para salvar localmente uma versão do seu código.
 
-
+git commit -m "versão 1"
 
 8 - Qual o comando para enviar seu projeto para o Github?
 
+git push -u origin main
